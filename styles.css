@@ -1,0 +1,56 @@
+body { 
+    background-color: #ffffff; /* A light gray background */
+    font-family: Arial, sans-serif;    /* A clean, simple font */
+    line-height: 1.6;     }
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 40px 20px;
+  background-color: #d6f9bf;
+}
+.nav-right a {
+  color: #000;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left:15px;
+}
+
+.nav-right a:hover {
+  background-color: #2e7d32;
+  color: black;
+}
+.nav-left h1{
+    margin:0;
+    font-size:34px;
+    color:#000;
+}
+
+.Description {
+  display: flex;
+  justify-content: center; /* This pushes the contained elements to the right */
+  align-items: center; /* Aligns label and textarea nicely at the start of the line */
+  gap: 10px; /* Optional: Adds a little space between the label and the textarea */
+}
+
+/* Optional: Styling the textarea for better visuals */
+textarea {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(166, 228, 177);
+
+  margin-bottom: 15px; /* Adjust the pixel value as needed */
+  display: block; /* Ensures each element takes its own line */
+  width: 100%; /* Optional: Makes them fill the container width */border-radius: 10px; /* Adjust the pixel value for desired roundness */
+}
+.Profile {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: right; /* Centers items vertically within the flex container */
+  justify-content: center; /* Centers items vertically within the flex container */
+ gap: 10px; /* Optional: Adds a little space between the label and the textarea */
+ margin-bottom: 15px; /* Adjust the pixel value as needed */
+  display: block; /* Ensures each element takes its own line */
+  width: 100%; /* Optional: Makes them fill the container width */border-radius: 10px; /* Adjust the pixel value for desired roundness */
+}
