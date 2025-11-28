@@ -1,2 +1,2 @@
 # Engr1340_teamproject
-
+This project is called "Explore". It is a networking website that allows students to be able to find companies and internships for them to expand their experience. It starts off on the home page where you can search for companies and apply for positions, the next page is the profile page where it shows your profile, has your skills listed and roles you like to play, third page is the companies page where it just shows the companies and what they are looking for, lastly is the actual page for the company and its details. 
